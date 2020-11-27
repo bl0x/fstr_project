@@ -5,3 +5,5 @@ Example project for [APIO](https://github.com/FPGAwars/apio) that has initial su
 It includes example code in VHDL and Verilog and a common SConstruct file.
 
 Test benches and a top level for the ice40 (TinyFPGA BX) included as well.
+
+For VHDL usage, first source the env.sh script.

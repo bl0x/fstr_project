@@ -23,6 +23,7 @@ architecture RTL of fstr is
 		clock_div4_90 : out std_logic
 	);
 	end component;
+
 	component pll_16_200 is
 		port (
 		referenceclk: in std_logic;
@@ -32,6 +33,7 @@ architecture RTL of fstr is
 		lock : out std_logic
 	);
 	end component;
+
 begin
 	USBPU <= '0';
 
